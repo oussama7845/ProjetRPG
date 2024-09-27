@@ -178,6 +178,7 @@ Résultat attendu :
 - Étape 5 : Avancer vers le Nord à (1, 2).
 - Étape 6 : Avancer vers le Nord à (1, 3).
 Messages confirment chaque action et position.
+
 Commandes résumées
 - "N", "S", "E", "O" : Se déplacer d'une case dans la direction spécifiée.
 - "A" : Avancer d'une case dans la direction actuelle.
