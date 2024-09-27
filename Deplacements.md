@@ -12,6 +12,15 @@ Le personnage peut recevoir des commandes pour se déplacer :
 "S" : se déplacer d'une case vers le Sud.
 "E" : se déplacer d'une case vers l'Est.
 "O" : se déplacer d'une case vers l'Ouest.
+
+
+Commandes résumées
+- "N", "S", "E", "O" : Se déplacer d'une case dans la direction spécifiée.
+- "A" : Avancer d'une case dans la direction actuelle.
+- "G" : Tourner à gauche (changement d'orientation).
+- "D" : Tourner à droite (changement d'orientation).
+
+
 ### Règles de déplacement
 Le personnage ne peut pas sortir des limites de la grille.
 Si la case vers laquelle le personnage souhaite se déplacer contient un monstre, il doit le combattre avant de pouvoir entrer dans la case.
@@ -179,8 +188,3 @@ Résultat attendu :
 - Étape 6 : Avancer vers le Nord à (1, 3).
 Messages confirment chaque action et position.
 
-Commandes résumées
-- "N", "S", "E", "O" : Se déplacer d'une case dans la direction spécifiée.
-- "A" : Avancer d'une case dans la direction actuelle.
-- "G" : Tourner à gauche (changement d'orientation).
-- "D" : Tourner à droite (changement d'orientation).
