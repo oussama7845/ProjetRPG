@@ -36,7 +36,8 @@ Les joueurs explorent un donjon généré aléatoirement, affrontent des monstre
 1.  **Test de génération de donjon** : Vérifier que le donjon contient un certain nombre de salles avec des connexions valides entre elles.
 2.  **Test de déplacement** : Assurer que le joueur peut se déplacer dans le donjon et que les mouvements sont bien limités aux directions valides.
 3.  **Test de rencontre avec un monstre** : Vérifier que le joueur est bien obligé d'affronter un monstre avant de quitter une salle qui en contient un.
-4.  **Système de combat**
+  
+3.  **Système de combat**
     -   Lorsqu'un joueur rencontre un monstre, un combat au tour par tour commence.
     -   Le joueur peut choisir d'attaquer, se défendre ou utiliser un objet de son inventaire.
     -   Le monstre attaque à son tour, et le combat continue jusqu'à ce que le joueur ou le monstre soit vaincu.
@@ -54,7 +55,7 @@ Les joueurs explorent un donjon généré aléatoirement, affrontent des monstre
 3.  **Test de victoire/défaite** : Assurer que le combat se termine correctement si le joueur ou le monstre tombe à 0 points de vie.
 
 
-**Gestion de l'inventaire et des objets**
+4. **Gestion de l'inventaire et des objets**
 
 -   Le joueur peut trouver des objets dans les salles ou après avoir vaincu des monstres (potions de soin, armes, armures, etc.).
 -   Les objets peuvent être utilisés pendant ou hors des combats pour améliorer les statistiques du joueur ou restaurer sa santé.
