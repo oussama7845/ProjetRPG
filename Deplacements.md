@@ -171,19 +171,15 @@ Actions :
 Le joueur entre la séquence de commandes : "A", "D", "A", "G", "A", "A".
 Résultat attendu :
 
-Étape 1 : Avancer vers le Nord à (0, 1).
-Étape 2 : Tourner à droite vers l'Est.
-Étape 3 : Avancer vers l'Est à (1, 1).
-Étape 4 : Tourner à gauche vers le Nord.
-Étape 5 : Avancer vers le Nord à (1, 2).
-Étape 6 : Avancer vers le Nord à (1, 3).
+- Étape 1 : Avancer vers le Nord à (0, 1).
+- Étape 2 : Tourner à droite vers l'Est.
+- Étape 3 : Avancer vers l'Est à (1, 1).
+- Étape 4 : Tourner à gauche vers le Nord.
+- Étape 5 : Avancer vers le Nord à (1, 2).
+- Étape 6 : Avancer vers le Nord à (1, 3).
 Messages confirment chaque action et position.
 Commandes résumées
-"N", "S", "E", "O" : Se déplacer d'une case dans la direction spécifiée.
-"A" : Avancer d'une case dans la direction actuelle.
-"G" : Tourner à gauche (changement d'orientation).
-"D" : Tourner à droite (changement d'orientation).
-Règles supplémentaires inspirées du Kata Mars Rover
-Le personnage a une orientation (Nord, Sud, Est, Ouest) qui détermine la direction de l'avance.
-Les commandes de rotation "G" et "D" permettent de changer l'orientation sans se déplacer.
-La commande "A" fait avancer le personnage d'une case dans sa direction actuelle.
+- "N", "S", "E", "O" : Se déplacer d'une case dans la direction spécifiée.
+- "A" : Avancer d'une case dans la direction actuelle.
+- "G" : Tourner à gauche (changement d'orientation).
+- "D" : Tourner à droite (changement d'orientation).
