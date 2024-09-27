@@ -55,3 +55,17 @@ Chaque personnage possède les statistiques suivantes :
 - **Chance** : **12**
 - **Endurance** : 7
 - **Esprit** : 6
+
+### Test d'acceptation 1.1 : Nom valide
+
+### Test d'acceptation 1.2 : Nom trop court
+
+### Test d'acceptation 1.3 : Nom trop long
+
+### Test d'acceptation 2.1 : Sélection d'une classe valide
+Scénario : Le joueur choisit une classe parmi les options disponibles.
+
+Préconditions : Le joueur a saisi un nom valide.
+
+### Test d'acceptation 5.1 : Affichage du récapitulatif du personnage
+Scénario : Le joueur souhaite voir un récapitulatif avant de commencer le jeu.
