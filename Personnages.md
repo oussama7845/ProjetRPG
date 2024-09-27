@@ -10,7 +10,7 @@ Chaque personnage possède les statistiques suivantes :
 6. **Résistance Magique** : Réduction des dégâts magiques reçus.
 7. **Agilité** : Vitesse d'action et capacité d'esquive.
 8. **Chance** : Chances de coups critiques et trouvailles rares.
-9. **Endurance** : Résistance aux effets néfastes.
+9. **Endurance** : Résistance aux effets.
 10. **Esprit** : Régénération de mana et résistance mentale.
 
 ---
