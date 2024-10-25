@@ -107,7 +107,7 @@ Résultat attendu :
 Le personnage se déplace à la position (1, 3).
 Un message indique la découverte du trésor : "Vous avez trouvé un trésor !"
 Le trésor est ajouté à l'inventaire du personnage.
-Test d'acceptation 6 : Déplacement bloqué par un obstacle
+## Test d'acceptation 6 : Déplacement bloqué par un obstacle
 Scénario : Le personnage tente de se déplacer vers une case bloquée par un obstacle infranchissable.
 
 #### Préconditions :
@@ -122,7 +122,7 @@ Résultat attendu :
 Le déplacement est refusé.
 Un message indique : "Un obstacle vous bloque le passage. Vous ne pouvez pas aller par là."
 Le personnage reste à la position (1, 3).
-Test d'acceptation 7 : Gestion des limites de la grille
+## Test d'acceptation 7 : Gestion des limites de la grille
 Scénario : Le personnage atteint le bord de la grille et ne peut pas aller plus loin.
 
 #### Préconditions :
@@ -137,7 +137,7 @@ Résultat attendu :
 Le déplacement est refusé.
 Un message indique : "Vous avez atteint le bord du monde. Vous ne pouvez pas aller plus au Nord."
 Le personnage reste à la position (0, 4).
-Test d'acceptation 8 : Rotation et orientation du personnage
+## Test d'acceptation 8 : Rotation et orientation du personnage
 Scénario : Le personnage change d'orientation sans se déplacer.
 
 #### Préconditions :
